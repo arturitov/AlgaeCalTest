@@ -147,8 +147,8 @@ $screen-xs-max: $screen-xs -1 !default;
       width: 70px;
       border-radius:200px;
       position:absolute;
-      top:-20px;
-      right:34px;
+      top:2px;
+      right:43px;
       box-shadow: -1px 0px 13px 0px rgba(100,100,100,0.75);
 
       .label {
@@ -174,18 +174,12 @@ $screen-xs-max: $screen-xs -1 !default;
 
   .most-popular{
     .percent-off{
-      top:-61px;
-      right:14px;
+      // top:-61px;
+      // right:14px;
     }
   }
 }
 .three-by-cta {
-  .percent-off{
-    transform:translateX(70%);
-  }
-  .most-popular .percent-off{
-    transform:translateX(60%);
-  }
 
   @media screen and (max-width: $screen-md){
     .percent-off{

@@ -135,12 +135,12 @@ $screen-xs-max: $screen-xs -1 !default;
         font-size: $font-size-large*1.5;
         color: $black;
         font-weight:$font-weight-heavy;
+        line-height: 20.8px;
       }
 
       .price-per-day{
         @extend .highlight-yellow;
         font-size: $font-size-medium*.8;
-        margin-top: -17px;
         .amount,.dollar-sign{ font-weight:$font-weight-heavy;}
 
       }

@@ -70,11 +70,11 @@ $screen-xs-max: $screen-xs -1 !default;
     width:auto;
   }
   .product-image img{
-    height:auto;
+    height:195px;
     display:block;
     margin:auto;
-    width:200px;
-    max-width:80%;
+    width:auto;
+    max-width:100%;
   }
   .product-box-wrapper{
     margin:20px auto;

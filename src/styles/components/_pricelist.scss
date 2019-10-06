@@ -326,6 +326,15 @@ $header-height: 100px;
   font-size: $font-size-large*.85;
 }
 
+.product-box{
+
+  .you-save{
+    color: #ff0000;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+}
+
 .most-popular{
   font-size: $font-size-large*1.2;
   display: block;
@@ -336,6 +345,14 @@ $header-height: 100px;
   font-weight: 700;
   background: $algaecal-yellow url('../assets/img/redline.png') no-repeat 48% 82%;
   background-size: 145px 8px;
+
+  .product-totals{
+    font-size: 1.3rem;
+
+    .d-block{
+      font-weight: normal;
+    }
+  }
 }
 
 @media screen and (max-width: $screen-sm){

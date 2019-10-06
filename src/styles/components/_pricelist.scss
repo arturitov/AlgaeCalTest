@@ -146,6 +146,23 @@ $screen-xs-max: $screen-xs -1 !default;
       .product-totals{
         font-size: 1.3rem;
 
+        .redline{
+          position: relative;
+        }
+
+        .redline:after {
+            background: url(https://cdn.algaecal.com/wp-content/themes/algaecal/img/line.png) no-repeat center center;
+            -webkit-background-size: 100% 50%;
+            background-size: 100% 50%;
+            bottom: 0;
+            content: '';
+            display: block;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
         .d-block{
           font-weight: normal;
         }

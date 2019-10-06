@@ -147,8 +147,8 @@ $screen-xs-max: $screen-xs -1 !default;
       width: 70px;
       border-radius:200px;
       position:absolute;
-      top:2px;
-      right:43px;
+      top:24px;
+      right:66px;
       box-shadow: -1px 0px 13px 0px rgba(100,100,100,0.75);
 
       .label {
@@ -161,7 +161,6 @@ $screen-xs-max: $screen-xs -1 !default;
       }
 
       @media screen and (max-width: $screen-sm-max){
-        top: -46px;
         right: 67px;
       }
       @media screen and (max-width: $screen-xs-max){
@@ -174,20 +173,29 @@ $screen-xs-max: $screen-xs -1 !default;
 
   .most-popular{
     .percent-off{
-      // top:-61px;
-      // right:14px;
+      top:17px;
+
+      @media screen and (max-width: $screen-sm-max){
+        top: 32px;
+      }
     }
   }
 }
 .three-by-cta {
+  .percent-off{
+    transform:translateX(70%);
+  }
+  .most-popular .percent-off{
+    transform:translateX(60%);
+  }
 
   @media screen and (max-width: $screen-md){
     .percent-off{
-      transform:translateX(0);
+      transform:translateX(100%);
     }
     .most-popular .percent-off{
       left:50%;
-      transform:translate(220%);
+      transform:translate(100%);
     }
   }
 }
@@ -201,14 +209,15 @@ $screen-xs-max: $screen-xs -1 !default;
     margin: auto !important;
     .percent-off {
       left: 50%;
-      transform: translateX(220%);
+      transform: translateX(110%);
+      top: 32px;
     }
   }
 }
 
 @media screen and (max-width:450px){
   .product-box-wrapper .percent-off {
-    transform: translateX(135%) !important;
+    transform: translateX(110%) !important;
   }
 }
 

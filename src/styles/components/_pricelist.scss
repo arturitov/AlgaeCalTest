@@ -163,6 +163,28 @@ $screen-xs-max: $screen-xs -1 !default;
             top: 0;
         }
 
+        .usd{
+          position: relative;
+        }
+
+        .usd:after {
+            content: "usd";
+            display: inline-block;
+            font-size: .67em;
+            height: 1em;
+            left: 100%;
+            line-height: 1;
+            margin: auto;
+            margin-left: 2px;
+            position: absolute;
+            text-decoration: underline;
+            text-transform: uppercase;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
         .d-block{
           font-weight: normal;
         }
